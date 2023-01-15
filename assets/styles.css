@@ -1,26 +1,41 @@
-/*Header Css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap');
+
+/*_________Header Css______________*/
+
 #header{
-  height: 140px;
   background: linear-gradient(180deg, #071F41 0%, rgba(2, 110, 187, 0.74) 100%);
   position: fixed;
   z-index: 3;
+  height: 160px;
 }
 
 #logo{
   position: relative;
   width: 9vw;
-  left: 77px;
-  top: 40px;
+  left: 3vw;
+  top: 3vw;
   z-index: 2;
 }
 
 #header a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
   color: white;
-  font-size: 1vw;
+  padding: 5px;
+}
+
+#header a:hover{
+  color: red;
 }
 
 #navigation-bar{
-  margin-top: 54px;
+  margin-top: 4vw;
+}
+
+#search-div{
+  margin-top: 3vw;
 }
 
 #search{
@@ -31,43 +46,235 @@
 }
 
 #cart{
-  margin-right: 20px;
+  
 }
 
-/*Banner Css*/
+#humberger{
+  
+}
+
+/*________Banner Css_______________*/
+
 #banner{
   background: linear-gradient(180deg, #0167AF 0%, #0B3066 71.33%, #0167AF 99.99%);
-  height: 1000px;
+  margin-top: -15px;
+} 
+
+#banner-item{
+  margin-top: 12vw;
+}
+
+#banner-description{
+  margin-top: 8vw;
 }
 
 #banner h1{
-  margin-top: 40vh;
-  margin-left: 70px;
+  margin-left: 2vw;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 5vw;
-  line-height: 80px;
+  font-size: 4.3rem;
   color: white;
   position: relative;
   z-index: 1;
 }
 
 #banner h3{
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 70px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 2vw;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 2vw;
-  line-height: 38px;
+  font-size: 2rem;
   color: #FFFFFF;
   position: relative;
   z-index: 1;
 }
 
-#browse-btn{
+/*_________Strawberry Css_____________*/
+
+#starwberry{
+  margin-top: -24%;
+  width: 20%;
+  position: absolute;
+}
+
+/*__________About Css__________________*/
+
+#about-row{
+  margin-top: 9vw;
+  padding: 4vw;
   position: relative;
-  margin-left: 70px;
+  z-index: 1;
+}
+
+#about-row h2{
+  font-family: 'Poppins';
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #1B5FAE;
+}
+
+#about-row p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #1B5FAE;
+
+}
+
+/*___________JowDrop Css_______________*/
+
+#jowdrop-div{
+  background-image: url('../images/secon\ 1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 3vw;
+}
+
+#jowdrop-div h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.3rem;
+  color: #FFFFFF;
+  margin-top: 200px;
+}
+
+#jowdrop-div p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 200px;
+}
+
+/*____________mango section_____________*/
+#mango-row{
+  margin-top: -150px;
+  margin-bottom: -200px;
+}
+
+#mango{
+  width: 30vw;
+  margin-bottom: vw;
+  margin-top: 00px;
+}
+
+
+#cube-mango-1{
+  margin-bottom: 1vw;
+  margin-left: 4vw;
+  width: 5vw;
+}
+
+#cube-mango-2{
+  margin-bottom: -16vw;
+  margin-right: -2vw;
+}
+
+#cube-mango-3{
+  margin-bottom: -10vw;
+  margin-left: 3vw;
+}
+
+
+/*__________Low Calorie_________*/
+
+#carosel{
+  background: linear-gradient(89.73deg, #1B5FAE 0.29%, #071F41 99.78%);
+}
+
+#peanut-buttercup-row{
+  background-image: url('../images/haz\ 1.png');
+  background-repeat: no-repeat; 
+  background-position: left bottom;
+  background-size: 40vw;
+}
+
+#peanut-buttercup-details{
+  padding: 5vw;
+}
+
+#peanut-buttercup-details h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+}
+
+#peanut-buttercup-details h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8vw;
+  line-height: 5vw;
+  color: #FFFFFF;
+}
+
+#peanut-buttercup-details h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #FFFFFF;
+}
+
+#peanut-tub{
+  width: 18vw;
+}
+
+#hazenut-buttercup-row{
+  background-image: url('../images/haz\ 2.png');
+  background-repeat: no-repeat; 
+  background-position: center bottom;
+  background-size: 40vw;
+}
+
+/*___________Collection Css__________*/
+#collection{
+  margin-top: 0px;
+  background: linear-gradient(90deg, #D3925C 0%, #593122 130.55%);
+}
+
+#collection-imgs{
+  margin-top: -800px;
+}
+
+#collection-details{
+  padding: 5vw;
+}
+
+.normal{
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.active{
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: relative;
+}
+
+#collection-topic h2{
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+
+#collection-topic h5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#browse-btn-2{
+  position: relative;
   width: 372px;
   height: 71px;
   background: #010416;
@@ -77,218 +284,363 @@
   z-index: 2;
 }
 
-#banner-slider{
-  margin-top: 300px;
-  width: 50%;
-}
-
-#starwberry{
-  margin-left: -10px;
-  margin-top: -24%;
-  width: 20%;
-  position: absolute;
-}
-
-/*About Css*/
-#about-row{
-  padding: 3vw;
-  position: relative;
-  z-index: 1;
-}
-
-#about-row h2{
-  font-size: 3vw;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 72px;
-  margin-top: 9vw;
-  color: #1B5FAE;
-}
-
-#about-row p{
-  margin-top: 9vw;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #1B5FAE;
-
-}
-
-/*JowDrop Css*/
-
-#mango-row{
-  margin-top: -200px;
-}
-
-#mango{
-  width: 20vw;
-  margin-bottom: -8vw;
-  margin-top: 200px;
-}
-
-#cube-mango-1{
-  margin-bottom: -250px;
-  margin-left: 100px;
-  width: 5vw;
-}
-
-#cube-mango-2{
-  margin-bottom: -400px;
-  margin-right: -100px;
-}
-
-#cube-mango-3{
-  margin-bottom: -300px;
-  margin-left: -90px;
-}
-
-#jowdrop-div{
-  background-image: url('../images/secon\ 1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-#jowdrop-div h2{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 72px;
-  color: #FFFFFF;
-  margin-top: 200px;
-}
-
-#jowdrop-div p{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #FFFFFF;
-  margin-bottom: 200px;
-}
-/*#about{
-  background-image: url('../images/mango\ 1.png');
-  background-size: 571px;
-  background-repeat: no-repeat;
-  background-position: bottom,center;
-}
-
-/*Low Calorie*/
-
-#carosel{
-  background: linear-gradient(89.73deg, #1B5FAE 0.29%, #071F41 99.78%);
-}
-
-#peanut-buttercup-row{
-  background-image: url('../images/haz\ 1.png');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-}
-
-#peanut-buttercup-details{
-  margin-top: 100px;
-}
-
-#peanut-buttercup-details h3{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  color: #FFFFFF;
-}
-
-#peanut-buttercup-details h1{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 150px;
-  line-height: 100px;
-  color: #FFFFFF;
-}
-
-#peanut-buttercup-details h2{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  color: #FFFFFF;
-}
-
-#peanut-tub{
-  margin-right: 60px;
-}
-
-#nav-pre{
-  margin-right: -16px;
-}
-
-#nav-next{
-  margin-left: -16px;
-}
-
-#hazenut-buttercup-row{
-  background-image: url('../images/haz\ 2.png');
-  background-repeat: no-repeat;
-  background-position: left bottom;
-}
-
-/*Collection Css*/
-#collection-select{
-  background: linear-gradient(90deg, #D3925C 0%, #593122 130.55%);
-}
-
-#collection-details{
-  padding: 5%;
-}
-
-#vert-nav-collection p{
-  border-top: 2px solid white;
-  padding-top: 10px;
-  color: white;
+#almonds-div{
+  height: 100px;
 }
 
 #almonds{
+  display: none;
   margin-top: -150px;
-  margin-right: -12px;
 }
 
-#angletub{
-  margin-right: -12px;
+#popsicle{
+  display: none;
+}
+
+#collection-img-right{
+  background-image: url('../images/chocolate\ 1.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 20vw;
 }
 
 #angletub-div{
-  background-image: url('../images/nuts\ 1.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 25vw;
+  height: 900px;
+}
+
+#angletb{
+  width: 100%;
+}
+
+#ice-cup-row{
+  margin-top: 13vw;
+}
+
+#ice-cup{
+  width: 18vw;
+  height: auto;
+}
+
+#rasp-1{
+  width: 12vw;
+}
+
+#middle-space{
+  height: 10vw;
+}
+
+#icecup-di{
+  margin-right: -200px;
+  margin-top: 320px;
+  position: relative;
+  z-index: 3;
+}
+
+/*____________Social Share Css___________*/
+
+#social-share{
+  background-image: url('../images/Frame.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+#social-share img{
+  min-width: 100px;
+}
+
+#social-share-description p{
+  color: #3F98CC;
+  font-size: 1rem;
+}
+
+#social-share-row{
+  height: 600px;
+}
+
+/*___________Insta Css__________*/
+#insta-pull img{
+  width: 100%;
+  height: 100%;
+}
+
+/*__________Footer Css__________*/
+footer{
+  background: linear-gradient(180deg, #1B5FAE 27.99%, #071F41 86.11%);
+  margin-top: 0px;
+}
+
+#footer-div{
+  background-image: url('../images/Frame-1f.png');
   background-repeat: no-repeat;
   background-position: left bottom;
 }
 
-#popsicle{
-  position: 
+#footer-div-2{
+  background-image: url('../images/Frame\ \(2\).png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-blend-mode:darken;
+}
+
+#footer-row{
+  padding: 100px;
+}
+
+#nav-menu-footer li{
+  color: #B6D3F4;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#copyrights p{
+  margin-top: 150px;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 380px) {
+  html {
+    font-size:  12px;
+  }
 
 }
 
-#te{
-  height: 500px;
+@media only screen and (max-width: 380px){
+  html {
+    font-size: 3vw;
+  }
+
 }
 
-/*Css For The Mobile*/
+@media only screen and (min-width: 480px) {
+  html {
+    font-size:  13px;
+  }
+
+  #browse-btn{
+    position: relative;
+    margin-left: 2vw;
+    width: 374px;
+    height: 71px;
+    background: #010416;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  #browse-btn{
+    position: relative;
+    margin-left: 2vw;
+    width: 90%;
+    height: 71px;
+    background: #010416;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    z-index: 2;
+  }
+
+  #browse-btn-2{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size:  14px;
+  } 
+}
 
 @media only screen and (max-width: 768px) {
 
-  #nav-menu{
-    display: none;
+  /*Header Css*/
+  #logo{
+    width: 12vw;
+    margin-top: 2vw;
+  }
+
+  #header{
+    height: 20vw;
+    background: linear-gradient(180deg, #071F41 0%, rgba(2, 110, 187, 0.74) 100%);
+    position: fixed;
+    z-index: 3;
+  }
+
+  #search-div{
+    margin-top: 8vw;
   }
 
   #navigation-bar{
-    text-align: right;
+    display: none;
   }
 
-  #logo{
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: 40px;
-    top: 60px;
+  #search-bar-div{
+    display: none;
   }
 
+  #cart{
+    width: 6vw;
+  }
+
+  #humberger{
+    width: 6vw;
+  }
+
+  /*Banner Css*/
+
+  #banner-description{
+    margin-top: 20vw;
+  }
+
+  #banner h1{
+    margin-left: 3vw;
+    font-size: 4.3rem;
+    line-height: ;
+  }
+
+  #banner h3{
+    margin-left: 3vw;
+    font-size: 2rem;
+    margin-bottom: 2vw;
+  }
+
+  /*about Css*/
+  #about-row h2{
+    font-size: 3.3rem;
+  }
+
+  #about-row p{
+    font-size: 1rem;
+  }
+
+  /*jowdrop css*/
+  #jowdrop-div{
+    background-image: url('../images/secon\ 1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  #jowdrop-div h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3rem;
+    color: #FFFFFF;
+    margin-top: 10vw;
+  }
+  
+  #jowdrop-div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-bottom: 10vw;
+  }
+
+  #mango-row{
+    display: none;
+  }
+
+  /*collection css*/
+  #vert-nav-collection{
+    margin-top: 40px;
+  }
+
+  #collection-topic h2{
+    font-size: 8vw;
+  }
+
+  #angletub-div{
+    background-size: 250px 325px;
+  }
+
+  #ice-cup-row{
+    margin-top: 75px;
+  }
+
+  #ice-cup{
+    width: 175px;
+    height: auto;
+  }
+
+  #rasp-1{
+    width: 125px;
+  }
+
+  #rasp-2{
+    width: 75px;
+  }
+
+  #browse-btn-2{
+    position: relative;
+    margin-left: 2vw;
+    width: 80%;
+    height: 50px;
+    background: #010416;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    z-index: 0;
+  }
+
+  /*footer css*/
+  #footer-row{
+    padding: 0px;
+  }
+
+  #footer-div-2{
+    background-size: 30vw;
+  }
+
+  #footer-div{
+    background-size: 30vw;
+  }
+
+  #f-logo-1{
+    width: 20vw;
+    margin-bottom: 8vw;
+  }
+
+  #f-logo-2{
+    width: 30vw;
+    margin-bottom: 8vw;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 15px;
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  } 
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 17px;
+  } 
+}
+
+@media only screen and (min-width:1366px) {
+  html {
+    font-size: 18px;
+  }
 }
